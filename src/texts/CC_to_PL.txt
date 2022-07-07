@@ -1,0 +1,3 @@
+:credit_card: A customer is spending ${5-30:spend}k on a category on their credit card currently at {12-20:cardrate}% interest. Converting that to a PL of the same amount at {7-15:plrate}% would save them
+ ${=(cardrate - plrate) * spend *10:interestdelta} a year in interest and generate ${=numcust*(plrate * spend * 10 + 120 + 250):plincome} income and ${=numcust*spend*1000:bal} additional balance for PLs if there are {1000-5000:numcust} customers who take this up
+
